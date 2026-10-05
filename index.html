@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Glow Beauty — maquiagem, tendências, dicas e produtos para realçar sua beleza.">
+  <title>Glow Beauty | Maquiagem & Beleza</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+  <header class="header">
+    <div class="container nav">
+      <a class="logo" href="#inicio">GLOW<span>.</span></a>
+
+      <nav class="menu">
+        <a href="#inicio">Início</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#tutorial">Tutorial</a>
+        <a href="#tendencias">Tendências</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <label for="menu-toggle" class="menu-button" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </label>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-glow"></div>
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">BELEZA • ESTILO • CONFIANÇA</p>
+          <h1>Seu brilho.<br><em>Suas regras.</em></h1>
+          <p class="hero-description">
+            Descubra produtos, técnicas e tendências de maquiagem para criar looks
+            que combinam com você — do básico elegante ao glam poderoso.
+          </p>
+          <div class="hero-buttons">
+            <a href="#produtos" class="btn btn-primary">Explorar produtos <span>→</span></a>
+            <a href="#tutorial" class="btn btn-ghost">Ver tutorial</a>
+          </div>
+          <div class="hero-stats">
+            <div><strong>120+</strong><span>produtos</span></div>
+            <div><strong>35k</strong><span>beauty lovers</span></div>
+            <div><strong>4.9/5</strong><span>avaliação</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="circle circle-one"></div>
+          <div class="circle circle-two"></div>
+          <div class="hero-card">
+            <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=900&q=85" alt="Produtos de maquiagem">
+          </div>
+          <div class="floating-card">
+            <span class="mini-icon">✦</span>
+            <div><b>Glow da semana</b><small>Blush + iluminador</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="categories section">
+      <div class="container">
+        <div class="section-heading centered">
+          <p class="eyebrow">EXPLORE</p>
+          <h2>Encontre seu próximo <em>favorito</em></h2>
+        </div>
+        <div class="category-grid">
+          <a class="category-card" href="#produtos"><span>💄</span><b>Make completa</b><small>Looks para todos os momentos</small></a>
+          <a class="category-card" href="#produtos"><span>✨</span><b>Glow</b><small>Iluminadores e acabamentos</small></a>
+          <a class="category-card" href="#produtos"><span>🌷</span><b>Blush</b><small>Cor e naturalidade</small></a>
+          <a class="category-card" href="#produtos"><span>👁️</span><b>Olhos</b><small>Sombras, máscaras e delineadores</small></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="products section" id="produtos">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">CURADORIA GLOW</p>
+            <h2>Produtos em <em>destaque</em></h2>
+          </div>
+          <p class="section-note">Escolhas para elevar sua rotina de beleza.</p>
+        </div>
+
+        <div class="filters">
+          <input type="radio" name="filter" id="all" checked>
+          <input type="radio" name="filter" id="face">
+          <input type="radio" name="filter" id="eyes">
+          <input type="radio" name="filter" id="lips">
+
+          <div class="filter-labels">
+            <label for="all">Todos</label>
+            <label for="face">Pele</label>
+            <label for="eyes">Olhos</label>
+            <label for="lips">Lábios</label>
+          </div>
+
+          <div class="product-grid">
+            <article class="product-card face-item">
+              <div class="product-image"><span class="tag">BEST SELLER</span><img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=700&q=85" alt="Paleta de maquiagem"></div>
+              <div class="product-info"><span>PELE</span><h3>Paleta Soft Glam</h3><p>12 tons versáteis para criar looks naturais ou intensos.</p><div class="product-bottom"><b>R$ 89,90</b><button aria-label="Adicionar produto">+</button></div></div>
+            </article>
+
+            <article class="product-card face-item">
+              <div class="product-image"><span class="tag">NOVO</span><img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=700&q=85" alt="Maquiagem para o rosto"></div>
+              <div class="product-info"><span>PELE</span><h3>Blush Rosé Glow</h3><p>Textura leve com acabamento luminoso e natural.</p><div class="product-bottom"><b>R$ 54,90</b><button aria-label="Adicionar produto">+</button></div></div>
+            </article>
+
+            <article class="product-card eyes-item">
+              <div class="product-image"><span class="tag">TREND</span><img src="https://images.unsplash.com/photo-1583241800698-e8ab01830a07?auto=format&fit=crop&w=700&q=85" alt="Maquiagem para os olhos"></div>
+              <div class="product-info"><span>OLHOS</span><h3>Liner Precision</h3><p>Ponta fina para traços precisos e acabamento marcante.</p><div class="product-bottom"><b>R$ 39,90</b><button aria-label="Adicionar produto">+</button></div></div>
+            </article>
+
+            <article class="product-card lips-item">
+              <div class="product-image"><span class="tag">FAVORITO</span><img src="https://images.unsplash.com/photo-1586495777744-4413f21062fa?auto=format&fit=crop&w=700&q=85" alt="Batom vermelho"></div>
+              <div class="product-info"><span>LÁBIOS</span><h3>Velvet Lip</h3><p>Batom de alta pigmentação com toque confortável.</p><div class="product-bottom"><b>R$ 47,90</b><button aria-label="Adicionar produto">+</button></div></div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tutorial section" id="tutorial">
+      <div class="container tutorial-grid">
+        <div class="tutorial-image">
+          <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=1000&q=85" alt="Pessoa usando maquiagem">
+          <div class="play-badge">▶</div>
+        </div>
+        <div class="tutorial-content">
+          <p class="eyebrow">GUIA GLOW</p>
+          <h2>Make bonita começa com uma boa <em>preparação</em></h2>
+          <p>Uma rotina simples pode transformar o resultado final. Siga os passos abaixo para criar uma pele mais uniforme e iluminada.</p>
+          <div class="steps">
+            <div class="step"><strong>01</strong><div><h3>Prepare a pele</h3><p>Limpe, hidrate e aplique protetor solar.</p></div></div>
+            <div class="step"><strong>02</strong><div><h3>Uniformize</h3><p>Use base e corretivo apenas onde precisar.</p></div></div>
+            <div class="step"><strong>03</strong><div><h3>Finalize com glow</h3><p>Blush e iluminador dão vida ao look.</p></div></div>
+          </div>
+          <a href="#tendencias" class="text-link">Ver mais dicas <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="trends section" id="tendencias">
+      <div class="container">
+        <div class="section-heading centered">
+          <p class="eyebrow">BEAUTY EDIT</p>
+          <h2>Tendências que estão <em>bombando</em></h2>
+        </div>
+        <div class="trend-grid">
+          <article class="trend-card trend-large">
+            <img src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?auto=format&fit=crop&w=1100&q=85" alt="Maquiagem com acabamento glow">
+            <div><span>#01</span><h3>Glass Skin</h3><p>Pele hidratada, natural e com luminosidade.</p></div>
+          </article>
+          <article class="trend-card">
+            <img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=800&q=85" alt="Maquiagem colorida">
+            <div><span>#02</span><h3>Soft Blush</h3><p>Blush esfumado para um efeito saudável.</p></div>
+          </article>
+          <article class="trend-card">
+            <img src="https://images.unsplash.com/photo-1526045478516-99145907023c?auto=format&fit=crop&w=800&q=85" alt="Produtos de beleza">
+            <div><span>#03</span><h3>Clean Girl</h3><p>Minimalismo, frescor e praticidade.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote section">
+      <div class="container quote-box">
+        <span class="quote-mark">“</span>
+        <blockquote>Maquiagem não é esconder quem você é. É uma forma de contar ao mundo como você quer se sentir.</blockquote>
+        <p>— Glow Beauty</p>
+      </div>
+    </section>
+
+    <section class="newsletter section" id="contato">
+      <div class="container newsletter-box">
+        <div><p class="eyebrow">CLUBE GLOW</p><h2>Receba dicas e novidades.</h2><p>Conteúdos de beleza direto no seu e-mail.</p></div>
+        <form>
+          <label for="email">Seu melhor e-mail</label>
+          <div class="input-row"><input id="email" type="email" placeholder="voce@email.com" required><button type="submit">Quero receber</button></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div><a class="logo" href="#inicio">GLOW<span>.</span></a><p>Beleza, criatividade e confiança em cada detalhe.</p></div>
+      <div><h4>Explorar</h4><a href="#produtos">Produtos</a><a href="#tutorial">Tutoriais</a><a href="#tendencias">Tendências</a></div>
+      <div><h4>Social</h4><a href="#">Instagram</a><a href="#">Pinterest</a><a href="#">TikTok</a></div>
+      <div><h4>Contato</h4><a href="mailto:contato@glowbeauty.com">contato@glowbeauty.com</a><span>Brasil</span></div>
+    </div>
+    <div class="container copyright"><span>© 2026 Glow Beauty</span><span>Feito com HTML + CSS</span></div>
+  </footer>
+
+</body>
+</html>
